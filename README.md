@@ -24,3 +24,5 @@ Generate Data: python generate_data.py (Creates the initial customer list)
 Predict: python predict_logic.py (Runs ML to find anomalies and profiles)
 
 Decide & Act: python send_action.py (AI generates the email and sends it via SMTP)
+
+Autonomous Workflow: python main.py — The main entry point that coordinates the entire cycle (Analysis, Filtering, and AI Generation) in a single run.
